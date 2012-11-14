@@ -1,0 +1,52 @@
+{
+  "name": "grunt-grunticon-sass",
+  "description": "A mystical CSS icon solution. This is a fork from filamentgroup grunt-grunticon: this version is Sass powered, maintained by Sergi Meseguer aka zigotica",
+  "version": "0.1.6",
+  "homepage": "https://github.com/zigotica/grunticon",
+  "author": {
+    "name": "Scott Jehl",
+    "email": "scott@filamentgroup.com",
+    "url": "http://filamentgroup.com"
+  },
+  "maintainers": [ 
+    {
+      "name": "Sergi Meseguer",
+      "email": "zigotica@gmail.com",
+      "url": "http://zigotica.com"
+    } 
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zigotica/grunticon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zigotica/grunticon/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/zigotica/grunticon/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "tasks/grunticon",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt": "~0.3.9"
+  },
+  "keywords": [
+    "gruntplugin",
+    "grunticon",
+    "sass",
+    "scss",
+    "icon",
+    "svg",
+    "png",
+    "datauri",
+    "base64"
+  ]
+}
